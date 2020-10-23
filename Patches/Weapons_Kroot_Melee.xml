@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	  <success>Always</success>
+	  <operations>
+		<!--==================== Kroot - Fighting Staff =========================-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="OGK_Melee_FightingStaff"]/tools</xpath>
+			<value>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>haft</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>4</power>
+						<cooldownTime>0.9</cooldownTime>
+						<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>head</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>1.5</cooldownTime>
+						<armorPenetrationSharp>2.05</armorPenetrationSharp>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>head</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>6</power>
+						<cooldownTime>0.9</cooldownTime>
+						<armorPenetrationBlunt>2.65</armorPenetrationBlunt>	
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>head</label>
+						<capacities>
+							<li>Stab</li>
+						</capacities>
+						<power>18</power>
+						<cooldownTime>1.8</cooldownTime>
+						<armorPenetrationSharp>2.5</armorPenetrationSharp>
+						<armorPenetrationBlunt>0.75</armorPenetrationBlunt>	
+					</li>
+				</tools>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="OGK_Melee_FightingStaff"]/statBases</xpath>
+			<value>
+				<Bulk>2.5</Bulk>
+				<MeleeCounterParryBonus>1.04</MeleeCounterParryBonus>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="OGK_Melee_FightingStaff"]</xpath>
+			<value>
+				<equippedStatOffsets>
+					<MeleeCritChance>0.28</MeleeCritChance>
+					<MeleeParryChance>1.14</MeleeParryChance>
+					<MeleeDodgeChance>0.7</MeleeDodgeChance>						
+				</equippedStatOffsets>
+			</value>
+		</li>		
+
+
+		<!--==================== Kroot - Power Sword =========================-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="OGK_Melee_PowerSword"]/tools</xpath>
+			<value>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>pommel</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>1.0</cooldownTime>
+						<armorPenetrationBlunt>0.12</armorPenetrationBlunt>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>blade</label>
+						<capacities>
+							<li>OG_PowerWeapon_Cut</li>
+						</capacities>
+						<power>14</power>
+						<cooldownTime>1.3</cooldownTime>
+						<armorPenetrationSharp>7.50</armorPenetrationSharp>
+						<armorPenetrationBlunt>5.41</armorPenetrationBlunt>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>point</label>
+						<capacities>
+							<li>OG_PowerWeapon_Stab</li>
+						</capacities>
+						<power>20</power>
+						<cooldownTime>1.8</cooldownTime>
+						<armorPenetrationSharp>8.250</armorPenetrationSharp>
+						<armorPenetrationBlunt>2.21</armorPenetrationBlunt>
+					</li>
+				</tools>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="OGK_Melee_PowerSword"]/statBases</xpath>
+			<value>
+				<Bulk>2.5</Bulk>
+				<MeleeCounterParryBonus>0.46</MeleeCounterParryBonus>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="OGK_Melee_PowerSword"]</xpath>
+			<value>
+				<equippedStatOffsets>
+					<MeleeCritChance>0.26</MeleeCritChance>
+					<MeleeParryChance>0.44</MeleeParryChance>
+					<MeleeDodgeChance>0.2</MeleeDodgeChance>						
+				</equippedStatOffsets>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGI_Melee_PowerAxe"]/weaponTags</xpath>
+			<value>
+			   <li>CE_OneHandedWeapon</li>
+			</value>
+		</li>		
+		
+
+		<!--==================== Kroot - Shaman Staff =========================-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="OGK_Melee_ShamanStaff"]/tools</xpath>
+			<value>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>haft</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>1.0</cooldownTime>
+						<armorPenetrationBlunt>4.21</armorPenetrationBlunt>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>head</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>4</power>
+						<cooldownTime>1.8</cooldownTime>
+						<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>force strike</label>
+						<capacities>
+						<li>OG_ForceWeapon_Blunt</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>1.8</cooldownTime>
+						<armorPenetrationBlunt>18.21</armorPenetrationBlunt>
+					</li>
+				</tools>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="OGK_Melee_ShamanStaff"]/statBases</xpath>
+			<value>
+				<Bulk>2.5</Bulk>
+				<MeleeCounterParryBonus>0.5</MeleeCounterParryBonus>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="OGK_Melee_ShamanStaff"]</xpath>
+			<value>
+				<equippedStatOffsets>
+					<MeleeCritChance>0.27</MeleeCritChance>
+					<MeleeParryChance>0.4</MeleeParryChance>
+					<MeleeDodgeChance>0.4</MeleeDodgeChance>						
+				</equippedStatOffsets>
+			</value>
+		</li>			
+		
+
+	  </operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+	<!--==================== Ork  - Crude Choppa =========================-->
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_CrudeChoppa"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Blunt</li>
+						<li>Poke</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.0</cooldownTime>
+					<armorPenetrationBlunt>0.3</armorPenetrationBlunt>	
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>blade</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>18</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetrationSharp>0.75</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.05</armorPenetrationBlunt>	
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>28</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationSharp>0.785</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.15</armorPenetrationBlunt>	
+				</li>
+			</tools>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_CrudeChoppa"]/statBases</xpath>
+		<value>
+			<Bulk>2.5</Bulk>
+			<MeleeCounterParryBonus>0.15</MeleeCounterParryBonus>
+		</value>
+	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_CrudeChoppa"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>0.1</MeleeCritChance>
+				<MeleeParryChance>0.15</MeleeParryChance>
+				<MeleeDodgeChance>0.20</MeleeDodgeChance>						
+		</value>
+	</li>		
+
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_CrudeChoppa"]/weaponTags</xpath>
+		<value>
+		   <li>CE_OneHandedWeapon</li>
+		</value>
+	</li>	
+	
+	
+	<!--==================== Ork  - Choppa =========================-->
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_Choppa"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Blunt</li>
+						<li>Poke</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.0</cooldownTime>
+					<armorPenetrationBlunt>0.35</armorPenetrationBlunt>	
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>blade</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>18</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetrationSharp>0.8</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.15</armorPenetrationBlunt>	
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>28</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationSharp>0.85</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.2</armorPenetrationBlunt>	
+				</li>
+			</tools>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_Choppa"]/statBases</xpath>
+		<value>
+			<Bulk>2.5</Bulk>
+			<MeleeCounterParryBonus>0.15</MeleeCounterParryBonus>	
+		</value>
+	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_Choppa"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>0.1</MeleeCritChance>
+				<MeleeParryChance>0.15</MeleeParryChance>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>						
+		</value>
+	</li>			
+	
+	
+	<!--==================== Ork  - Chain Choppa =========================-->
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_ChainChoppa"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Blunt</li>
+						<li>Poke</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>1.0</cooldownTime>
+					<armorPenetrationBlunt>0.3</armorPenetrationBlunt>	
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Cut</li>
+						<li>Stab</li>
+					</capacities>
+					<power>32</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetrationSharp>4.55</armorPenetrationSharp>
+					<armorPenetrationBlunt>6.25</armorPenetrationBlunt>	
+				</li>
+			</tools>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_ChainChoppa"]/statBases</xpath>
+		<value>
+			<Bulk>2.5</Bulk>
+			<MeleeCounterParryBonus>0.45</MeleeCounterParryBonus>	
+		</value>
+	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_ChainChoppa"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>0.24</MeleeCritChance>
+				<MeleeParryChance>0.4</MeleeParryChance>
+				<MeleeDodgeChance>0.18</MeleeDodgeChance>						
+		</value>
+	</li>			
+	
+	
+	<!--==================== Ork  - Big Choppa =========================-->
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_BigChoppa"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Blunt</li>
+						<li>Poke</li>
+					</capacities>
+					<power>18</power>
+					<cooldownTime>1.0</cooldownTime>
+					<armorPenetrationBlunt>2.15</armorPenetrationBlunt>	
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>blade</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>38</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetrationSharp>6.4</armorPenetrationSharp>
+					<armorPenetrationBlunt>6.5</armorPenetrationBlunt>	
+				</li>
+			</tools>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_BigChoppa"]/statBases</xpath>
+		<value>
+			<Bulk>4.5</Bulk>
+			<MeleeCounterParryBonus>1.04</MeleeCounterParryBonus>
+		</value>
+	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_BigChoppa"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>1.2</MeleeCritChance>
+				<MeleeParryChance>0.3</MeleeParryChance>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>						
+		</value>
+	</li>			
+	
+	
+	<!--==================== Ork  - Power Klaw =========================-->
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_PowerKlaw"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>klaws</label>
+					<capacities>
+						<li>OG_PowerWeapon_Cut</li>
+					</capacities>
+					<power>28</power>
+					<cooldownTime>2.4</cooldownTime>
+					<armorPenetrationSharp>15.28</armorPenetrationSharp>
+					<armorPenetrationBlunt>6.81</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>fist</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.4</cooldownTime>
+					<armorPenetrationBlunt>0.45</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_PowerKlaw"]/statBases</xpath>
+		<value>
+			<Bulk>2.5</Bulk>
+			<MeleeCounterParryBonus>1.2</MeleeCounterParryBonus>
+		</value>
+	</li>
+	
+	<!--==================== Ork  - Wyrd Staff =========================-->
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_WeirdboyStaff"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>haft</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>0.9</cooldownTime>
+					<armorPenetrationBlunt>3.25</armorPenetrationBlunt>	
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>0.9</cooldownTime>
+					<armorPenetrationBlunt>3.25</armorPenetrationBlunt>	
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>force strike</label>
+					<capacities>
+						<li>OG_ForceWeapon_Blunt</li>
+					</capacities>
+					<power>18</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetrationBlunt>14.5</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_WeirdboyStaff"]/statBases</xpath>
+		<value>
+			<Bulk>2.0</Bulk>
+			<MeleeCounterParryBonus>0.5</MeleeCounterParryBonus>
+		</value>
+	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Melee_WeirdboyStaff"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>0.27</MeleeCritChance>
+				<MeleeParryChance>0.4</MeleeParryChance>
+				<MeleeDodgeChance>0.4</MeleeDodgeChance>						
+		</value>
+	</li>			
+	
+
+  </operations>
+</Operation>
+
+</Patch>
