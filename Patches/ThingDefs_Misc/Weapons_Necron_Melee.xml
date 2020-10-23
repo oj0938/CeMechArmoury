@@ -16,7 +16,7 @@
 					</capacities>
 					<power>8</power>
 					<cooldownTime>1.0</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.50</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>hilt</label>
@@ -25,7 +25,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.1</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.50</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
@@ -34,7 +34,8 @@
 					</capacities>
 					<power>20</power>
 					<cooldownTime>1.6</cooldownTime>
-					<armorPenetration>1</armorPenetration>
+					<armorPenetrationSharp>8.25</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.81</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
@@ -43,7 +44,8 @@
 					</capacities>
 					<power>30</power>
 					<cooldownTime>2.1</cooldownTime>
-					<armorPenetration>1</armorPenetration>
+					<armorPenetrationSharp>9.15</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.41</armorPenetrationBlunt>
 				</li>
 			</tools>
 		</value>
@@ -53,8 +55,25 @@
 		<xpath>Defs/ThingDef[defName="OGN_Melee_HyperphaseSword"]/statBases</xpath>
 		<value>
 			<Bulk>2.5</Bulk>
+			<MeleeCounterParryBonus>0.44</MeleeCounterParryBonus>
 		</value>
 	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGN_Melee_HyperphaseSword"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>1.0</MeleeCritChance>
+				<MeleeParryChance>0.4</MeleeParryChance>
+				<MeleeDodgeChance>0.3</MeleeDodgeChance>						
+		</value>
+	</li>			
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGN_Melee_HyperphaseSword"]/weaponTags</xpath>
+		<value>
+		   <li>CE_OneHandedWeapon</li>
+		</value>
+	</li>	
+
 
 	<!--==================== Necron - WarScythe =========================-->
 	<li Class="PatchOperationReplace">
@@ -69,7 +88,7 @@
 					</capacities>
 					<power>8</power>
 					<cooldownTime>1.0</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>2</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
@@ -78,7 +97,8 @@
 					</capacities>
 					<power>30</power>
 					<cooldownTime>1.5</cooldownTime>
-					<armorPenetration>0.9</armorPenetration>
+					<armorPenetrationSharp>22.50</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.41</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
@@ -87,7 +107,8 @@
 					</capacities>
 					<power>50.5</power>
 					<cooldownTime>3</cooldownTime>
-					<armorPenetration>1</armorPenetration>
+					<armorPenetrationSharp>30.20</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.21</armorPenetrationBlunt>
 				</li>
 			</tools>
 		</value>
@@ -97,8 +118,19 @@
 		<xpath>Defs/ThingDef[defName="OGN_Melee_WarScythe"]/statBases</xpath>
 		<value>
 			<Bulk>4.5</Bulk>
+			<MeleeCounterParryBonus>0.95</MeleeCounterParryBonus>
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGN_Melee_WarScythe"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>1.14</MeleeCritChance>
+				<MeleeParryChance>0.71</MeleeParryChance>
+				<MeleeDodgeChance>0.47</MeleeDodgeChance>						
+		</value>
+	</li>			
+	
 	
 	<!-- ==================== Necron - Flaying Talons ========================= -->
 	<li Class="PatchOperationReplace">
@@ -112,7 +144,8 @@
 					</capacities>
 					<power>16</power>
 					<cooldownTime>1.6</cooldownTime>
-					<armorPenetration>1</armorPenetration>
+					<armorPenetrationBlunt>7.48</armorPenetrationBlunt>
+					<armorPenetrationSharp>8.65</armorPenetrationSharp>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>points</label>
@@ -121,7 +154,8 @@
 					</capacities>
 					<power>20</power>
 					<cooldownTime>2.1</cooldownTime>
-					<armorPenetration>1</armorPenetration>
+					<armorPenetrationSharp>9.97</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.36</armorPenetrationBlunt>
 				</li>
 			</tools>
 		</value>
@@ -131,8 +165,19 @@
 		<xpath>Defs/ThingDef[defName="OGN_Melee_FlayingTalon"]/statBases</xpath>
 		<value>
 			<Bulk>1.5</Bulk>
+			<MeleeCounterParryBonus>1.24</MeleeCounterParryBonus>
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGN_Melee_FlayingTalon"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>1.32</MeleeCritChance>
+				<MeleeParryChance>0.14</MeleeParryChance>
+				<MeleeDodgeChance>0.6</MeleeDodgeChance>						
+		</value>
+	</li>			
+	
 
 	<!--==================== Necron - Fabricator Claw =========================-->
 	<li Class="PatchOperationReplace">
@@ -147,7 +192,7 @@
 					</capacities>
 					<power>8</power>
 					<cooldownTime>1.0</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.12</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
@@ -156,7 +201,8 @@
 					</capacities>
 					<power>30</power>
 					<cooldownTime>1.5</cooldownTime>
-					<armorPenetration>0.9</armorPenetration>
+					<armorPenetrationSharp>6.90</armorPenetrationSharp>
+					<armorPenetrationBlunt>6.1</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
@@ -165,7 +211,8 @@
 					</capacities>
 					<power>50.5</power>
 					<cooldownTime>3</cooldownTime>
-					<armorPenetration>1</armorPenetration>
+					<armorPenetrationSharp>7.34</armorPenetrationSharp>
+					<armorPenetrationBlunt>3</armorPenetrationBlunt>
 				</li>
 			</tools>
 		</value>
@@ -175,8 +222,26 @@
 		<xpath>Defs/ThingDef[defName="OGN_Melee_FabricatorClaw"]/statBases</xpath>
 		<value>
 			<Bulk>4.5</Bulk>
+			<MeleeCounterParryBonus>0.5</MeleeCounterParryBonus>
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGN_Melee_FabricatorClaw"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>0.28</MeleeCritChance>
+				<MeleeParryChance>0.48</MeleeParryChance>
+				<MeleeDodgeChance>0.24</MeleeDodgeChance>						
+		</value>
+	</li>			
+	
+	<li Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="OGN_Melee_FabricatorClaw"]/weaponTags</xpath>
+		<value>
+		   <li>CE_OneHandedWeapon</li>
+		</value>
+	</li>			
+	
 	
   </operations>
 </Operation>

@@ -16,7 +16,7 @@
 					</capacities>
 					<power>8</power>
 					<cooldownTime>1.0</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.445</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>hilt</label>
@@ -25,7 +25,7 @@
 					</capacities>
 					<power>8</power>
 					<cooldownTime>1.0</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.445</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
@@ -34,7 +34,8 @@
 					</capacities>
 					<power>12</power>
 					<cooldownTime>1.7</cooldownTime>
-					<armorPenetration>0.5</armorPenetration>
+					<armorPenetrationSharp>0.42</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.855</armorPenetrationBlunt>	
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
@@ -43,7 +44,8 @@
 					</capacities>
 					<power>20</power>
 					<cooldownTime>2.5</cooldownTime>
-					<armorPenetration>0.55</armorPenetration>
+					<armorPenetrationSharp>0.45</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.885</armorPenetrationBlunt>	
 				</li>
 			</tools>
 		</value>
@@ -53,8 +55,28 @@
 		<xpath>Defs/ThingDef[defName="OGDE_Melee_WytchKnife"]/statBases</xpath>
 		<value>
 			<Bulk>2.25</Bulk>
+			<MeleeCounterParryBonus>0.16</MeleeCounterParryBonus>					
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGDE_Melee_WytchKnife"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.52</MeleeCritChance>
+				<MeleeParryChance>0.16</MeleeParryChance>
+				<MeleeDodgeChance>0.10</MeleeDodgeChance>						
+			</equippedStatOffsets>
+		</value>
+	</li>		
+
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGDE_Melee_WytchKnife"]/weaponTags</xpath>
+		<value>
+		   <li>CE_OneHandedWeapon</li>
+		</value>
+	</li>	
+	
 	
 	<!--==================== Dark Eldar - Mandrake Blade =========================-->
 	<li Class="PatchOperationReplace">
@@ -68,7 +90,7 @@
 					</capacities>
 					<power>9</power>
 					<cooldownTime>1.0</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.82</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>hilt</label>
@@ -77,7 +99,7 @@
 					</capacities>
 					<power>8</power>
 					<cooldownTime>1.0</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.82</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
@@ -86,7 +108,8 @@
 					</capacities>
 					<power>17</power>
 					<cooldownTime>1.7</cooldownTime>
-					<armorPenetration>0.5</armorPenetration>
+					<armorPenetrationSharp>0.89</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.605</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
@@ -95,7 +118,8 @@
 					</capacities>
 					<power>25</power>
 					<cooldownTime>2.5</cooldownTime>
-					<armorPenetration>0.55</armorPenetration>
+					<armorPenetrationSharp>1.65</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.84</armorPenetrationBlunt>
 				</li>
 			</tools>
 		</value>
@@ -105,8 +129,21 @@
 		<xpath>Defs/ThingDef[defName="OGDE_Melee_MandrakeBlade"]/statBases</xpath>
 		<value>
 			<Bulk>2.5</Bulk>
+			<MeleeCounterParryBonus>1.03</MeleeCounterParryBonus>					
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGDE_Melee_MandrakeBlade"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.64</MeleeCritChance>
+				<MeleeParryChance>0.78</MeleeParryChance>
+				<MeleeDodgeChance>0.42</MeleeDodgeChance>						
+			</equippedStatOffsets>
+		</value>
+	</li>			
+	
 	
 	<!--==================== Dark Eldar - Impaler =========================-->
 	<li Class="PatchOperationReplace">
@@ -120,7 +157,7 @@
 					</capacities>
 					<power>8</power>
 					<cooldownTime>1.0</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.83</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>hilt</label>
@@ -129,7 +166,7 @@
 					</capacities>
 					<power>8</power>
 					<cooldownTime>1.0</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.83</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
@@ -138,7 +175,8 @@
 					</capacities>
 					<power>20</power>
 					<cooldownTime>1.7</cooldownTime>
-					<armorPenetration>0.5</armorPenetration>
+					<armorPenetrationBlunt>6.68</armorPenetrationBlunt>
+					<armorPenetrationSharp>6.15</armorPenetrationSharp>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
@@ -147,7 +185,8 @@
 					</capacities>
 					<power>30</power>
 					<cooldownTime>2.5</cooldownTime>
-					<armorPenetration>0.55</armorPenetration>
+					<armorPenetrationBlunt>2.68</armorPenetrationBlunt>
+					<armorPenetrationSharp>6.85</armorPenetrationSharp>
 				</li>
 			</tools>
 		</value>
@@ -156,9 +195,20 @@
 	<li Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="OGDE_Melee_Impaler"]/statBases</xpath>
 		<value>
-			<Bulk>2.25</Bulk>
+			<Bulk>4.25</Bulk>
+			<MeleeCounterParryBonus>0.4</MeleeCounterParryBonus>					
 		</value>
 	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGDE_Melee_Impaler"]/equippedStatOffsets</xpath>
+		<value>
+			<MeleeCritChance>1.00</MeleeCritChance>
+			<MeleeParryChance>0.40</MeleeParryChance>
+			<MeleeDodgeChance>0.28</MeleeDodgeChance>	
+		</value>
+	</li>
+
 	
 	<!--==================== Dark Eldar - Power Sword =========================-->
 	<li Class="PatchOperationReplace">
@@ -172,7 +222,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.6</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.33</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>hilt</label>
@@ -181,7 +231,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.5</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.33</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
@@ -190,7 +240,8 @@
 					</capacities>
 					<power>20</power>
 					<cooldownTime>1.8</cooldownTime>
-					<armorPenetration>0.9</armorPenetration>
+					<armorPenetrationBlunt>6.35</armorPenetrationBlunt>
+					<armorPenetrationSharp>6.85</armorPenetrationSharp>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
@@ -199,7 +250,8 @@
 					</capacities>
 					<power>30</power>
 					<cooldownTime>2.2</cooldownTime>
-					<armorPenetration>0.8</armorPenetration>
+					<armorPenetrationBlunt>2.24</armorPenetrationBlunt>
+					<armorPenetrationSharp>7.15</armorPenetrationSharp>
 				</li>
 			</tools>
 		</value>
@@ -209,8 +261,26 @@
 		<xpath>Defs/ThingDef[defName="OGDE_Melee_PowerSword"]/statBases</xpath>
 		<value>
 			<Bulk>2.5</Bulk>
+			<MeleeCounterParryBonus>0.46</MeleeCounterParryBonus>					
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGDE_Melee_PowerSword"]/equippedStatOffsets</xpath>
+		<value>
+			<MeleeCritChance>0.26</MeleeCritChance>
+			<MeleeParryChance>0.46</MeleeParryChance>
+			<MeleeDodgeChance>0.2</MeleeDodgeChance>							
+		</value>
+	</li>			
+
+	<li Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="OGDE_Melee_PowerSword"]/weaponTags</xpath>
+		<value>
+		   <li>CE_OneHandedWeapon</li>
+		</value>
+	</li>	
+	
 	
 		<!--==================== Dark Eldar - Venom Blade =========================-->
 	<li Class="PatchOperationReplace">
@@ -224,7 +294,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.6</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.612</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>hilt</label>
@@ -233,7 +303,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.5</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.612</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
@@ -242,7 +312,8 @@
 					</capacities>
 					<power>15</power>
 					<cooldownTime>1.4</cooldownTime>
-					<armorPenetration>0.9</armorPenetration>
+					<armorPenetrationBlunt>5.83</armorPenetrationBlunt>
+					<armorPenetrationSharp>5.25</armorPenetrationSharp>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
@@ -251,7 +322,8 @@
 					</capacities>
 					<power>25</power>
 					<cooldownTime>2.0</cooldownTime>
-					<armorPenetration>0.8</armorPenetration>
+					<armorPenetrationBlunt>2.06</armorPenetrationBlunt>
+					<armorPenetrationSharp>5.75</armorPenetrationSharp>
 				</li>
 			</tools>
 		</value>
@@ -261,8 +333,26 @@
 		<xpath>Defs/ThingDef[defName="OGDE_Melee_VenomBlade"]/statBases</xpath>
 		<value>
 			<Bulk>2.5</Bulk>
+			<MeleeCounterParryBonus>0.6</MeleeCounterParryBonus>
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGDE_Melee_VenomBlade"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>1.00</MeleeCritChance>
+				<MeleeParryChance>0.43</MeleeParryChance>
+				<MeleeDodgeChance>0.32</MeleeDodgeChance>	
+		</value>
+	</li>	
+
+	<li Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="OGDE_Melee_VenomBlade"]/weaponTags</xpath>
+		<value>
+		   <li>CE_OneHandedWeapon</li>
+		</value>
+	</li>		
+	
 	
 	<!--==================== Dark Eldar - Djinn Sword =========================-->
 	<li Class="PatchOperationReplace">
@@ -276,7 +366,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.6</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.85</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>hilt</label>
@@ -285,7 +375,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.5</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.85</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
@@ -294,7 +384,8 @@
 					</capacities>
 					<power>15</power>
 					<cooldownTime>1.4</cooldownTime>
-					<armorPenetration>0.9</armorPenetration>
+					<armorPenetrationBlunt>2.75</armorPenetrationBlunt>
+					<armorPenetrationSharp>12.85</armorPenetrationSharp>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
@@ -303,7 +394,8 @@
 					</capacities>
 					<power>25</power>
 					<cooldownTime>2.0</cooldownTime>
-					<armorPenetration>0.8</armorPenetration>
+					<armorPenetrationBlunt>2.87</armorPenetrationBlunt>
+					<armorPenetrationSharp>24.35</armorPenetrationSharp>
 				</li>
 			</tools>
 		</value>
@@ -312,9 +404,20 @@
 	<li Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="OGDE_Melee_DjinBlade"]/statBases</xpath>
 		<value>
-			<Bulk>2.5</Bulk>
+			<Bulk>6.5</Bulk>
+			<MeleeCounterParryBonus>0.8</MeleeCounterParryBonus>
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGDE_Melee_DjinBlade"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>1.00</MeleeCritChance>
+				<MeleeParryChance>0.60</MeleeParryChance>
+				<MeleeDodgeChance>0.40</MeleeDodgeChance>	
+		</value>
+	</li>
+
 	
 	<!--==================== Dark Eldar - Klaive =========================-->
 	<li Class="PatchOperationReplace">
@@ -329,17 +432,30 @@
 					</capacities>
 					<power>8</power>
 					<cooldownTime>1.4</cooldownTime>
-					<armorPenetration>0.15</armorPenetration>
+					<armorPenetrationBlunt>2.91</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
 					<capacities>
-						<li>OG_PowerWeapon_Cut</li>
 						<li>OG_PowerWeapon_Stab</li>
 					</capacities>
-					<power>27</power>
-					<cooldownTime>1.9</cooldownTime>
-				</li>
+					<power>16</power>
+					<cooldownTime>1.4</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationSharp>28.52</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.85</armorPenetrationBlunt>
+				</li>				
+				<li Class="CombatExtended.ToolCE">
+					<label>blade</label>
+					<capacities>
+						<li>OG_PowerWeapon_Cut</li>
+					</capacities>
+					<power>35</power>
+					<cooldownTime>1.6</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationSharp>21.23</armorPenetrationSharp>
+					<armorPenetrationBlunt>8.1</armorPenetrationBlunt>
+				</li>	
 			</tools>
 		</value>
 	</li>
@@ -347,9 +463,20 @@
 	<li Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="OGDE_Melee_Klaive"]/statBases</xpath>
 		<value>
-			<Bulk>2.0</Bulk>
+			<Bulk>6.0</Bulk>
+			<MeleeCounterParryBonus>0.8</MeleeCounterParryBonus>
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGDE_Melee_Klaive"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>1.00</MeleeCritChance>
+				<MeleeParryChance>0.5</MeleeParryChance>
+				<MeleeDodgeChance>0.5</MeleeDodgeChance>						
+		</value>
+	</li>	
+
 	
 	<!--==================== Dark Eldar - Agoniser =========================-->
 	<li Class="PatchOperationReplace">
@@ -363,7 +490,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.6</cooldownTime>
-					<armorPenetration>0.2</armorPenetration>
+					<armorPenetrationBlunt>0.81</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>hilt</label>
@@ -372,7 +499,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.6</cooldownTime>
-					<armorPenetration>0.2</armorPenetration>
+					<armorPenetrationBlunt>0.81</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>whip lash</label>
@@ -381,7 +508,7 @@
 					</capacities>
 					<power>20</power>
 					<cooldownTime>2.3</cooldownTime>
-					<armorPenetration>1</armorPenetration>
+					<armorPenetrationBlunt>15</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>whip blades</label>
@@ -390,7 +517,8 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.7</cooldownTime>
-					<armorPenetration>1</armorPenetration>
+					<armorPenetrationSharp>5.25</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.61</armorPenetrationBlunt>
 				</li>
 			</tools>
 		</value>
@@ -400,8 +528,19 @@
 		<xpath>Defs/ThingDef[defName="OGDE_Melee_Agoniser"]/statBases</xpath>
 		<value>
 			<Bulk>2.0</Bulk>
+			<MeleeCounterParryBonus>0.84</MeleeCounterParryBonus>
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGDE_Melee_Agoniser"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>1.50</MeleeCritChance>
+				<MeleeParryChance>0.38</MeleeParryChance>
+				<MeleeDodgeChance>0.30</MeleeDodgeChance>	
+		</value>	
+	</li>
+
 	
 	<!--==================== Dark Eldar - Husk Blade =========================-->
 	<li Class="PatchOperationReplace">
@@ -415,7 +554,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.6</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.6</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>hilt</label>
@@ -424,7 +563,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.5</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>0.6</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
@@ -433,7 +572,8 @@
 					</capacities>
 					<power>15</power>
 					<cooldownTime>1.4</cooldownTime>
-					<armorPenetration>0.9</armorPenetration>
+					<armorPenetrationBlunt>3.12</armorPenetrationBlunt>
+					<armorPenetrationSharp>9.75</armorPenetrationSharp>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
@@ -442,7 +582,8 @@
 					</capacities>
 					<power>25</power>
 					<cooldownTime>2.0</cooldownTime>
-					<armorPenetration>0.8</armorPenetration>
+					<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+					<armorPenetrationSharp>10.5</armorPenetrationSharp>
 				</li>
 			</tools>
 		</value>
@@ -452,8 +593,27 @@
 		<xpath>Defs/ThingDef[defName="OGDE_Melee_HuskBlade"]/statBases</xpath>
 		<value>
 			<Bulk>3.25</Bulk>
+			<MeleeCounterParryBonus>0.46</MeleeCounterParryBonus>
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGDE_Melee_HuskBlade"]/equippedStatOffsets</xpath>
+		<value>
+				<MeleeCritChance>1.00</MeleeCritChance>
+				<MeleeParryChance>0.40</MeleeParryChance>
+				<MeleeDodgeChance>0.27</MeleeDodgeChance>	
+		</value>
+	</li>
+	
+		
+	<li Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="OGDE_Melee_HuskBlade"]/weaponTags</xpath>
+		<value>
+		   <li>CE_OneHandedWeapon</li>
+		</value>
+	</li>		
+	
 	
 	<!--==================== Dark Eldar - Hellglaive =========================-->
 	<li Class="PatchOperationReplace">
@@ -468,7 +628,7 @@
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.5</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
+					<armorPenetrationBlunt>3.42</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
@@ -477,7 +637,8 @@
 					</capacities>
 					<power>15</power>
 					<cooldownTime>1.4</cooldownTime>
-					<armorPenetration>0.2</armorPenetration>
+					<armorPenetrationSharp>16.18</armorPenetrationSharp>
+					<armorPenetrationBlunt>4.12</armorPenetrationBlunt>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
@@ -486,7 +647,8 @@
 					</capacities>
 					<power>20</power>
 					<cooldownTime>2.0</cooldownTime>
-					<armorPenetration>0.25</armorPenetration>
+					<armorPenetrationSharp>24.15</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.12</armorPenetrationBlunt>
 				</li>
 			</tools>
 		</value>
@@ -496,8 +658,21 @@
 		<xpath>Defs/ThingDef[defName="OGDE_Melee_Hellglaive"]/statBases</xpath>
 		<value>
 			<Bulk>4.5</Bulk>
+			<MeleeCounterParryBonus>1.08</MeleeCounterParryBonus>
 		</value>
 	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGDE_Melee_Hellglaive"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.24</MeleeCritChance>
+				<MeleeParryChance>1.59</MeleeParryChance>
+				<MeleeDodgeChance>0.69</MeleeDodgeChance>						
+			</equippedStatOffsets>
+		</value>
+	</li>			
+	
 	
   </operations>
 </Operation>
