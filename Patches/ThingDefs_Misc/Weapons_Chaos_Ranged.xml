@@ -167,7 +167,7 @@
 			<FireModes>
 				<aiAimMode>AimedShot</aiAimMode>
 				<aiUseBurstMode>TRUE</aiUseBurstMode>	
-				<aimedBrustShotCount>3</aimedBrustShotCount>
+				<aimedBurstShotCount>3</aimedBurstShotCount>
 			</FireModes>
 			<weaponTags>
 				<li>Gun</li>
@@ -237,7 +237,7 @@
 			<FireModes>
 				<aiAimMode>AimedShot</aiAimMode>
 				<aiUseBurstMode>TRUE</aiUseBurstMode>
-				<aimedBrustShotCount>3</aimedBrustShotCount>
+				<aimedBurstShotCount>3</aimedBurstShotCount>
 			</FireModes>
 			<weaponTags>
 				<li>GunHeavy</li>
@@ -623,7 +623,7 @@
 			</AmmoUser>
 			<FireModes>
 				<aiAimMode>AimedShot</aiAimMode>
-				<aimedBrustShotCount>4</aimedBrustShotCount>
+				<aimedBurstShotCount>4</aimedBurstShotCount>
 			</FireModes>
 			<weaponTags>
 				<li>CBlastmaster</li>
@@ -989,7 +989,7 @@
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
 						<aiUseBurstMode>TRUE</aiUseBurstMode>	
-						<aimedBrustShotCount>40</aimedBrustShotCount>
+						<aimedBurstShotCount>40</aimedBurstShotCount>
 					</FireModes>
 					<weaponTags>
 

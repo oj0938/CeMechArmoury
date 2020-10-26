@@ -142,7 +142,7 @@
 			<FireModes>
 				<aiAimMode>AimedShot</aiAimMode>
 				<aiUseBurstMode>TRUE</aiUseBurstMode>	
-				<aimedBrustShotCount>4</aimedBrustShotCount>
+				<aimedBurstShotCount>4</aimedBurstShotCount>
 			</FireModes>
 			<weaponTags>
 				<li>TPulseCarbine</li>
@@ -211,7 +211,7 @@
 			<FireModes>
 				<aiAimMode>AimedShot</aiAimMode>
 				<aiUseBurstMode>TRUE</aiUseBurstMode>	
-				<aimedBrustShotCount>2</aimedBrustShotCount>
+				<aimedBurstShotCount>2</aimedBurstShotCount>
 			</FireModes>
 			<weaponTags>
 				<li>EliteGun</li>
@@ -281,7 +281,7 @@
 			<FireModes>
 				<aiAimMode>AimedShot</aiAimMode>
 				<aiUseBurstMode>TRUE</aiUseBurstMode>
-				<aimedBrustShotCount>4</aimedBrustShotCount>
+				<aimedBurstShotCount>4</aimedBurstShotCount>
 			</FireModes>
 			<weaponTags>
 				<li>TPulseCarbine</li>
@@ -571,7 +571,7 @@
 			<FireModes>
 				<aiAimMode>AimedShot</aiAimMode>	
 				<aiUseBurstMode>TRUE</aiUseBurstMode>	
-				<aimedBrustShotCount>13</aimedBrustShotCount>
+				<aimedBurstShotCount>13</aimedBurstShotCount>
 			</FireModes>
 			<weaponTags>
 				<li>TBurstCannon</li>

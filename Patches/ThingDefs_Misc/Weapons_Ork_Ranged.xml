@@ -306,7 +306,7 @@
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
-		<aimedBrustShotCount>3</aimedBrustShotCount>
+		<aimedBurstShotCount>3</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 	
@@ -375,7 +375,7 @@
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
-		<aimedBrustShotCount>14</aimedBrustShotCount>
+		<aimedBurstShotCount>14</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 		<li>Gun</li>
@@ -466,7 +466,7 @@
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>
-		<aimedBrustShotCount>6</aimedBrustShotCount>
+		<aimedBurstShotCount>6</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 		<li>EliteGun</li>
@@ -664,7 +664,7 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
-		<aimedBrustShotCount>18</aimedBrustShotCount>
+		<aimedBurstShotCount>18</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 		<li>HeavyGun</li>
@@ -926,7 +926,7 @@
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
 						<aiUseBurstMode>TRUE</aiUseBurstMode>
-						<aimedBrustShotCount>6</aimedBrustShotCount>
+						<aimedBurstShotCount>6</aimedBurstShotCount>
 					</FireModes>
 					<weaponTags>
 
@@ -1041,7 +1041,7 @@
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
 						<aiUseBurstMode>TRUE</aiUseBurstMode>	
-						<aimedBrustShotCount>18</aimedBrustShotCount>
+						<aimedBurstShotCount>18</aimedBurstShotCount>
 					</FireModes>
 					<weaponTags>
 

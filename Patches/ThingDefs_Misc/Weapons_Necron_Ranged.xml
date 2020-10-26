@@ -39,7 +39,7 @@
 				<FireModes>
 					<aiAimMode>AimedShot</aiAimMode>
 					<aiUseBurstMode>TRUE</aiUseBurstMode>	
-					<aimedBrustShotCount>4</aimedBrustShotCount>
+					<aimedBurstShotCount>4</aimedBurstShotCount>
 				</FireModes>
 				<weaponTags>
 					<li>Gun</li>
@@ -268,7 +268,7 @@
 				<FireModes>
 					<aiAimMode>AimedShot</aiAimMode>
 					<aiUseBurstMode>TRUE</aiUseBurstMode>	
-					<aimedBrustShotCount>4</aimedBrustShotCount>
+					<aimedBurstShotCount>4</aimedBurstShotCount>
 				</FireModes>
 				<weaponTags>
 					<li>EliteGun</li>
@@ -665,7 +665,7 @@
 				<FireModes>
 					<aiAimMode>AimedShot</aiAimMode>
 					<aiUseBurstMode>TRUE</aiUseBurstMode>	
-					<aimedBrustShotCount>6</aimedBrustShotCount>
+					<aimedBurstShotCount>6</aimedBurstShotCount>
 				</FireModes>
 				<weaponTags>
 					<li>EliteGun</li>

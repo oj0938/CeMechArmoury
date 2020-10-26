@@ -39,7 +39,7 @@
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>
-		<aimedBrustShotCount>3</aimedBrustShotCount>
+		<aimedBurstShotCount>3</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 	
@@ -399,7 +399,7 @@
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
-		<aimedBrustShotCount>8</aimedBrustShotCount>
+		<aimedBurstShotCount>8</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 	
@@ -1118,7 +1118,7 @@
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
-		<aimedBrustShotCount>3</aimedBrustShotCount>
+		<aimedBurstShotCount>3</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 	
@@ -1177,7 +1177,7 @@
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
-		<aimedBrustShotCount>10</aimedBrustShotCount>
+		<aimedBurstShotCount>10</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 	
@@ -1544,7 +1544,7 @@
 			<FireModes>
 				<aiAimMode>AimedShot</aiAimMode>
 				<aiUseBurstMode>TRUE</aiUseBurstMode>	
-				<aimedBrustShotCount>3</aimedBrustShotCount>
+				<aimedBurstShotCount>3</aimedBurstShotCount>
 			</FireModes>
 			<weaponTags>
 
