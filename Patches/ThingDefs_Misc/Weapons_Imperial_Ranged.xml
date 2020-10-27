@@ -3492,8 +3492,6 @@
 								<flyOverhead>True</flyOverhead>
 								<damageDef>OGIBomb</damageDef>
 								<damageAmountBase>20</damageAmountBase>
-								<armorPenetrationSharp>14</armorPenetrationSharp>
-								<armorPenetrationBlunt>46</armorPenetrationBlunt>
 								<explosionRadius>1.00</explosionRadius>
 								<stoppingPower>1</stoppingPower>
 								<speed>35</speed>
@@ -3637,7 +3635,7 @@
 							</graphicData>
 							<projectile Class="CombatExtended.ProjectilePropertiesCE">
 								<damageDef>Bomb</damageDef>
-								<damageAmountBase>200</damageAmountBase>
+								<damageAmountBase>500</damageAmountBase>
 								<armorPenetrationSharp>400</armorPenetrationSharp>
 								<armorPenetrationBlunt>100</armorPenetrationBlunt>
 								<explosionRadius>1.5</explosionRadius>
