@@ -279,7 +279,7 @@
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>OGDE_Bullet_SplinterCannon</defaultProjectile>
-      <warmupTime>1</warmupTime>
+      <warmupTime>1.3</warmupTime>
       <range>65</range>
       <soundCast>OG_Splinter_Sound</soundCast>
       <soundCastTail>GunTail_Light</soundCastTail>
@@ -398,7 +398,7 @@
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>OGDE_Bullet_DisintergratorCannon</defaultProjectile>
-      <warmupTime>1.4</warmupTime>
+      <warmupTime>2.4</warmupTime>
       <range>62</range>
       <soundCast>OG_Starcannon_Sound</soundCast>
       <soundCastTail>GunTail_Medium</soundCastTail>
@@ -812,8 +812,8 @@
 				<seam>0</seam>
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
 					<damageDef>OGIMelta</damageDef>
-					<damageAmountBase>55</damageAmountBase>
-					<armorPenetrationBase>10.0</armorPenetrationBase>
+					<damageAmountBase>35</damageAmountBase>
+					<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					<explosionRadius>0.50</explosionRadius>
 					<soundExplode>OGIFL_Explosion</soundExplode>
 				</projectile>

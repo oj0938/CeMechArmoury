@@ -540,8 +540,13 @@
 					<damageDef>OGIPlasma</damageDef>
 					<explosionRadius>0.50</explosionRadius>
 					<damageAmountBase>20</damageAmountBase>
-					<armorPenetrationBase>0.8</armorPenetrationBase>
-					<stoppingPower>1.5</stoppingPower>
+					<secondaryDamage>
+						<li>
+							<def>Flame_Secondary</def>
+							<amount>20</amount>
+						</li>
+					</secondaryDamage>
+					<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					<speed>75</speed>
 					<soundExplode>OGIPP_Explosion</soundExplode>
 				</projectile>
@@ -638,9 +643,14 @@
 					<flyOverhead>false</flyOverhead>
 					<damageDef>OGIPlasmaCannon</damageDef>
 					<explosionRadius>1.25</explosionRadius>
-					<damageAmountBase>30</damageAmountBase>
-					<armorPenetrationBase>0.68</armorPenetrationBase>
-					<stoppingPower>3</stoppingPower>
+					<damageAmountBase>25</damageAmountBase>
+					<secondaryDamage>
+						<li>
+							<def>Flame_Secondary</def>
+							<amount>30</amount>
+						</li>
+					</secondaryDamage>
+					<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					<speed>55</speed>
 					<soundExplode>OGIPC_Explosion</soundExplode>
 				</projectile>
@@ -941,7 +951,7 @@
     </Properties>
     <AmmoUser>
       <magazineSize>1</magazineSize>
-      <reloadTime>3.5</reloadTime>
+      <reloadTime>1.5</reloadTime>
       <ammoSet>AmmoSet_OGTransuranicArquebus</ammoSet>
     </AmmoUser>
     <FireModes>
@@ -1010,7 +1020,6 @@
 					<flyOverhead>false</flyOverhead>
 					<damageDef>OGFlamer</damageDef>
 					<damageAmountBase>7</damageAmountBase>
-					<armorPenetrationBase>0.16</armorPenetrationBase>
 					<explosionRadius>0.55</explosionRadius>
 					<explosionChanceToStartFire>1.0</explosionChanceToStartFire>
 					<postExplosionSpawnThingDef>Filth_Fuel</postExplosionSpawnThingDef>
@@ -1226,7 +1235,6 @@
 					<flyOverhead>false</flyOverhead>
 					<damageDef>OGFlamer</damageDef>
 					<damageAmountBase>3</damageAmountBase>
-					<armorPenetrationBase>0.33</armorPenetrationBase>
 					<explosionRadius>1.25</explosionRadius>
 					<explosionChanceToStartFire>1.0</explosionChanceToStartFire>
 					<postExplosionSpawnThingDef>Filth_Fuel</postExplosionSpawnThingDef>
@@ -1363,7 +1371,7 @@
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
 					<damageDef>OGIVolkite</damageDef>
 					<damageAmountBase>35</damageAmountBase>
-				  <armorPenetrationSharp>24</armorPenetrationSharp>
+				  <armorPenetrationSharp>18</armorPenetrationSharp>
 				  <armorPenetrationBlunt>48</armorPenetrationBlunt>
 					<stoppingPower>1.25</stoppingPower>
 				</projectile>
@@ -1640,9 +1648,14 @@
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
 					<damageDef>OGIConversion</damageDef>
 					<explosionRadius>0.55</explosionRadius>
-					<damageAmountBase>15</damageAmountBase>
-					<stoppingPower>4</stoppingPower>
-					<armorPenetrationBase>0.16</armorPenetrationBase>
+					<damageAmountBase>18</damageAmountBase>
+					<secondaryDamage>
+						<li>
+							<def>Flame_Secondary</def>
+							<amount>20</amount>
+						</li>
+					</secondaryDamage>
+					<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					<soundExplode>OGIPP_Explosion</soundExplode>
 				</projectile>
 				<modExtensions>

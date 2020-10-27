@@ -516,7 +516,6 @@
 						<seam>0</seam>
 						<projectile Class="CombatExtended.ProjectilePropertiesCE">
 							<damageDef>OGTIon</damageDef>
-							<explosionRadius>0.75</explosionRadius>
 							<damageAmountBase>20</damageAmountBase>
 						  <armorPenetrationSharp>22</armorPenetrationSharp>
 						  <armorPenetrationBlunt>38</armorPenetrationBlunt>

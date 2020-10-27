@@ -671,7 +671,8 @@
 							<flyOverhead>false</flyOverhead>
 							<damageDef>OGCSonic</damageDef>
 							<damageAmountBase>15</damageAmountBase>
-							<armorPenetrationBase>0.32</armorPenetrationBase>
+							<armorPenetrationSharp>10</armorPenetrationSharp>
+							<armorPenetrationBlunt>104</armorPenetrationBlunt>
 							<stoppingPower>1</stoppingPower>
 							<speed>100</speed>
 						</projectile>
@@ -771,7 +772,8 @@
 							<flyOverhead>false</flyOverhead>
 							<damageDef>OGCSonic</damageDef>
 							<damageAmountBase>30</damageAmountBase>
-							<armorPenetrationBase>0.68</armorPenetrationBase>
+							<armorPenetrationSharp>12</armorPenetrationSharp>
+							<armorPenetrationBlunt>124</armorPenetrationBlunt>
 							<stoppingPower>2</stoppingPower>
 							<speed>100</speed>
 						</projectile>
