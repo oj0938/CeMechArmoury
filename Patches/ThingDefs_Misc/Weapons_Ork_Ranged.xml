@@ -313,8 +313,8 @@
     </weaponTags>
   </li>
 	
-	<li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="OGO_Gun_TwinLinkedShoota"]/tools</xpath>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Gun_TwinLinkedShoota"]</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -383,8 +383,8 @@
     </weaponTags>
   </li>
 	
-	<li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="OGO_Gun_BigShoota"]/tools</xpath>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Gun_BigShoota"]</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -474,8 +474,8 @@
     </weaponTags>
   </li>
 	
-	<li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="OGO_Gun_Snazzgun"]/tools</xpath>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Gun_Snazzgun"]</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -572,8 +572,8 @@
     </weaponTags>
   </li>
 	
-	<li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="OGO_Gun_ZappKannon"]/tools</xpath>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Gun_ZappKannon"]</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -677,19 +677,9 @@
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
-					<label>grip</label>
+					<label>barrels</label>
 					<capacities>
 						<li>Blunt</li>
-					</capacities>
-					<power>12</power>
-					<cooldownTime>1.6</cooldownTime>
-					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
-				</li>
-				<li Class="CombatExtended.ToolCE">
-					<label>barrel</label>
-					<capacities>
-						<li>Blunt</li>
-						<li>Poke</li>
 					</capacities>
 					<power>12</power>
 					<cooldownTime>1.6</cooldownTime>
@@ -764,19 +754,9 @@
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
-					<label>grip</label>
-					<capacities>
-						<li>Blunt</li>
-					</capacities>
-					<power>12</power>
-					<cooldownTime>1.6</cooldownTime>
-					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
-				</li>
-				<li Class="CombatExtended.ToolCE">
 					<label>barrel</label>
 					<capacities>
 						<li>Blunt</li>
-						<li>Poke</li>
 					</capacities>
 					<power>12</power>
 					<cooldownTime>1.6</cooldownTime>
@@ -825,8 +805,8 @@
     </weaponTags>
   </li>
 	
-	<li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="OGO_Gun_DeffgunPlasma"]/tools</xpath>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OGO_Gun_DeffgunPlasma"]</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -1157,19 +1137,9 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>stock</label>
-								<capacities>
-									<li>Blunt</li>
-								</capacities>
-								<power>9</power>
-								<cooldownTime>1.8</cooldownTime>
-								<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
-							</li>
-							<li Class="CombatExtended.ToolCE">
 								<label>barrel</label>
 								<capacities>
 									<li>Blunt</li>
-									<li>Poke</li>
 								</capacities>
 								<power>10</power>
 								<cooldownTime>1.9</cooldownTime>

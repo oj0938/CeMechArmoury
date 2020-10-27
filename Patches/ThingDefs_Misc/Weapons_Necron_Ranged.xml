@@ -276,19 +276,10 @@
 				</weaponTags>
 			</li>
 			
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="OGN_Gun_GaussBlasterTwinLinked"]/tools</xpath>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGN_Gun_GaussBlasterTwinLinked"]</xpath>
 				<value>
 					<tools>
-						<li Class="CombatExtended.ToolCE">
-							<label>grip</label>
-							<capacities>
-								<li>Blunt</li>
-							</capacities>
-							<power>10</power>
-							<cooldownTime>1.6</cooldownTime>
-							<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
-						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>barrel blade</label>
 							<capacities>
@@ -343,8 +334,8 @@
 				</weaponTags>
 			</li>
 			
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="OGN_Gun_GaussCannon"]/tools</xpath>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGN_Gun_GaussCannon"]</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
@@ -440,8 +431,8 @@
 				</weaponTags>
 			</li>
 			
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="OGN_Gun_GaussCannonHeavy"]/tools</xpath>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGN_Gun_GaussCannonHeavy"]</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
@@ -673,8 +664,8 @@
 				</weaponTags>
 			</li>
 			
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="OGN_Gun_TeslaCarbineTwinLinked"]/tools</xpath>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGN_Gun_TeslaCarbineTwinLinked"]</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
