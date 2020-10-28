@@ -1476,7 +1476,7 @@
 							<projectile Class="CombatExtended.ProjectilePropertiesCE">
 								<damageDef>OGILas</damageDef>
 								<damageAmountBase>25</damageAmountBase>
-							  <armorPenetrationSharp>34</armorPenetrationSharp>
+							  <armorPenetrationSharp>26</armorPenetrationSharp>
 							  <armorPenetrationBlunt>10</armorPenetrationBlunt>
 							</projectile>
 							<modExtensions>
