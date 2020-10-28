@@ -472,7 +472,7 @@
 	  <verbClass>CombatExtended.Verb_ShootCE</verbClass>
 	  <hasStandardCommand>true</hasStandardCommand>
 	  <defaultProjectile>OGAM_Bullet_PlasmaCaliver</defaultProjectile>
-	  <warmupTime>1</warmupTime>
+	  <warmupTime>1.65</warmupTime>
 	  <range>36</range>
 	  <soundCast>OG_Plasma_Pistol_Sound</soundCast>
 	  <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -539,13 +539,7 @@
 					<flyOverhead>false</flyOverhead>
 					<damageDef>OGIPlasma</damageDef>
 					<explosionRadius>0.50</explosionRadius>
-					<damageAmountBase>20</damageAmountBase>
-					<secondaryDamage>
-						<li>
-							<def>Flame_Secondary</def>
-							<amount>20</amount>
-						</li>
-					</secondaryDamage>
+					<damageAmountBase>25</damageAmountBase>
 					<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					<speed>75</speed>
 					<soundExplode>OGIPP_Explosion</soundExplode>
@@ -585,8 +579,8 @@
 	  <verbClass>CombatExtended.Verb_ShootCE</verbClass>
 	  <hasStandardCommand>true</hasStandardCommand>
 	  <defaultProjectile>OGAM_Bullet_PlasmaCulverin</defaultProjectile>
-	  <warmupTime>1.42</warmupTime>
-	  <range>45</range>
+	  <warmupTime>1.82</warmupTime>
+	  <range>36</range>
 	  <soundCast>OG_Plasma_Cannon_Sound</soundCast>
 	  <soundCastTail>GunTail_Heavy</soundCastTail>
 	  <muzzleFlashScale>14</muzzleFlashScale>
@@ -643,13 +637,7 @@
 					<flyOverhead>false</flyOverhead>
 					<damageDef>OGIPlasmaCannon</damageDef>
 					<explosionRadius>1.25</explosionRadius>
-					<damageAmountBase>25</damageAmountBase>
-					<secondaryDamage>
-						<li>
-							<def>Flame_Secondary</def>
-							<amount>30</amount>
-						</li>
-					</secondaryDamage>
+					<damageAmountBase>30</damageAmountBase>
 					<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					<speed>55</speed>
 					<soundExplode>OGIPC_Explosion</soundExplode>
@@ -1592,7 +1580,7 @@
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>OGAM_Bullet_ConversionBeamer</defaultProjectile>
-				<warmupTime>1.6</warmupTime>
+				<warmupTime>2.26</warmupTime>
 				<range>90</range>
 				<soundCast>OG_Las_Cannon_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -1648,13 +1636,7 @@
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
 					<damageDef>OGIConversion</damageDef>
 					<explosionRadius>0.55</explosionRadius>
-					<damageAmountBase>18</damageAmountBase>
-					<secondaryDamage>
-						<li>
-							<def>Flame_Secondary</def>
-							<amount>20</amount>
-						</li>
-					</secondaryDamage>
+					<damageAmountBase>30</damageAmountBase>
 					<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					<soundExplode>OGIPP_Explosion</soundExplode>
 				</projectile>

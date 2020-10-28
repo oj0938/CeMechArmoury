@@ -278,7 +278,7 @@
 			  <verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			  <hasStandardCommand>true</hasStandardCommand>
 			  <defaultProjectile>OGI_Bullet_LasCannon</defaultProjectile>
-			  <warmupTime>1.38</warmupTime>
+			  <warmupTime>2.18</warmupTime>
 			  <range>75</range>
 			  <soundCast>OG_Las_Cannon_Sound</soundCast>
 			  <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -344,8 +344,8 @@
 			  <verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			  <hasStandardCommand>true</hasStandardCommand>
 			  <defaultProjectile>OGI_Bullet_PlasmaPistol</defaultProjectile>
-			  <warmupTime>0.6</warmupTime>
-			  <range>16</range>
+			  <warmupTime>1</warmupTime>
+			  <range>12</range>
 			  <soundCast>OG_Plasma_Pistol_Sound</soundCast>
 			  <soundCastTail>GunTail_Medium</soundCastTail>
 			  <muzzleFlashScale>10</muzzleFlashScale>
@@ -413,7 +413,7 @@
 			  <verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			  <hasStandardCommand>true</hasStandardCommand>
 			  <defaultProjectile>OGI_Bullet_PlasmaGun</defaultProjectile>
-			  <warmupTime>1.1</warmupTime>
+			  <warmupTime>1.76</warmupTime>
 			  <range>46</range>
 			  <soundCast>OG_Plasma_Pistol_Sound</soundCast>
 			  <soundCastTail>GunTail_Medium</soundCastTail>
@@ -482,7 +482,7 @@
 			  <verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			  <hasStandardCommand>true</hasStandardCommand>
 			  <defaultProjectile>OGI_Bullet_PlasmaCannon</defaultProjectile>
-			  <warmupTime>1.54</warmupTime>
+			  <warmupTime>2.64</warmupTime>
 			  <range>68</range>
 			  <soundCast>OG_Plasma_Cannon_Sound</soundCast>
 			  <soundCastTail>GunTail_Heavy</soundCastTail>

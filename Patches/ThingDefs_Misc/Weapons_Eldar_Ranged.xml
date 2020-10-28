@@ -337,7 +337,7 @@
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>OGE_Bullet_Starcannon</defaultProjectile>
-      <warmupTime>1.4</warmupTime>
+      <warmupTime>1.8</warmupTime>
       <range>62</range>
       <soundCast>OG_Starcannon_Sound</soundCast>
       <soundCastTail>GunTail_Medium</soundCastTail>
@@ -404,9 +404,8 @@
 					<flyOverhead>false</flyOverhead>
 					<damageDef>OGEPlas</damageDef>
 					<explosionRadius>0.50</explosionRadius>
-					<damageAmountBase>35</damageAmountBase>
-					<armorPenetrationBase>0.8</armorPenetrationBase>
-					<stoppingPower>1.5</stoppingPower>
+					<damageAmountBase>50</damageAmountBase>
+					<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					<speed>75</speed>
 					<soundExplode>OGIPP_Explosion</soundExplode>
 				</projectile>
@@ -740,7 +739,7 @@
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>OGE_Bullet_PrismRifleFocused</defaultProjectile>
-      <warmupTime>1.6</warmupTime>
+      <warmupTime>1.8</warmupTime>
       <range>72</range>
       <soundCast>OG_Brightlance_Sound</soundCast>
       <soundCastTail>GunTail_Medium</soundCastTail>
@@ -827,8 +826,7 @@
 					<explosionRadius>1.50</explosionRadius>
 					<damageDef>OGELance</damageDef>
 					<damageAmountBase>28</damageAmountBase>
-				  <armorPenetrationSharp>12</armorPenetrationSharp>
-				  <armorPenetrationBlunt>28</armorPenetrationBlunt>
+					<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					<soundExplode>OGIPP_Explosion</soundExplode>
 				</projectile>
 				<modExtensions>
@@ -850,18 +848,17 @@
     <defName>OGE_Gun_Brightlance</defName>
     <statBases>
       <Mass>10.8</Mass>
-      <RangedWeapon_Cooldown>0.56</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.56</RangedWeapon_Cooldown>
       <SightsEfficiency>2.2</SightsEfficiency>
       <ShotSpread>0.04</ShotSpread>
       <SwayFactor>1.75</SwayFactor>
       <Bulk>12</Bulk>
     </statBases>
     <Properties>
-		<recoilAmount>1.2</recoilAmount>
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>OGE_Bullet_Brightlance</defaultProjectile>
-      <warmupTime>1.35</warmupTime>
+      <warmupTime>2.55</warmupTime>
       <range>75</range>
       <soundCast>OG_Brightlance_Sound</soundCast>
       <soundCastTail>GunTail_Medium</soundCastTail>
@@ -946,9 +943,9 @@
 				<seam>0</seam>
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
 					<damageDef>OGIMelta</damageDef>
-					<damageAmountBase>50</damageAmountBase>
-					<armorPenetrationBase>10.0</armorPenetrationBase>
+					<damageAmountBase>65</damageAmountBase>
 					<explosionRadius>0.50</explosionRadius>
+					<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					<soundExplode>OGIFL_Explosion</soundExplode>
 				</projectile>
 				<modExtensions>
@@ -981,7 +978,7 @@
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>OGE_Bullet_FusionGun</defaultProjectile>
-      <warmupTime>1.55</warmupTime>
+      <warmupTime>2.55</warmupTime>
       <range>16</range>
       <soundCast>OG_Melta_Sound</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
