@@ -329,8 +329,8 @@
 						<projectile Class="CombatExtended.ProjectilePropertiesCE">
 							<damageDef>OGTPlasmaPulse</damageDef>
 							<damageAmountBase>8</damageAmountBase>
-						  <armorPenetrationSharp>8</armorPenetrationSharp>
-						  <armorPenetrationBlunt>54</armorPenetrationBlunt>
+						  <armorPenetrationSharp>24</armorPenetrationSharp>
+						  <armorPenetrationBlunt>72</armorPenetrationBlunt>
 							<spreadMult>17.8</spreadMult>
 							<pelletCount>9</pelletCount>
 							<speed>100</speed>
@@ -422,7 +422,7 @@
 						<seam>0</seam>
 						<projectile Class="CombatExtended.ProjectilePropertiesCE">
 							<damageDef>OGTRailgun</damageDef>
-							<damageAmountBase>25</damageAmountBase>
+							<damageAmountBase>12</damageAmountBase>
 						  <armorPenetrationSharp>50</armorPenetrationSharp>
 						  <armorPenetrationBlunt>250</armorPenetrationBlunt>
 						</projectile>
@@ -517,8 +517,8 @@
 						<projectile Class="CombatExtended.ProjectilePropertiesCE">
 							<damageDef>OGTIon</damageDef>
 							<damageAmountBase>20</damageAmountBase>
-						  <armorPenetrationSharp>22</armorPenetrationSharp>
-						  <armorPenetrationBlunt>38</armorPenetrationBlunt>
+						  <armorPenetrationSharp>26</armorPenetrationSharp>
+						  <armorPenetrationBlunt>72</armorPenetrationBlunt>
 							<soundExplode>OGIPP_Explosion</soundExplode>
 						</projectile>
 						<modExtensions>
@@ -551,7 +551,7 @@
 			  <verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			  <hasStandardCommand>true</hasStandardCommand>
 			  <defaultProjectile>OGT_Bullet_BurstCannon</defaultProjectile>
-			  <warmupTime>1.54</warmupTime>
+			  <warmupTime>1.84</warmupTime>
 			  <range>44</range>
 			  <soundCast>OG_Plasma_Pistol_Sound</soundCast>
 			  <soundCastTail>GunTail_Medium</soundCastTail>
@@ -616,9 +616,9 @@
 						</graphicData>
 						<projectile Class="CombatExtended.ProjectilePropertiesCE">
 							<damageDef>OGTPlasmaPulse</damageDef>
-							<damageAmountBase>9</damageAmountBase>
-						  <armorPenetrationSharp>24</armorPenetrationSharp>
-						  <armorPenetrationBlunt>38</armorPenetrationBlunt>
+							<damageAmountBase>15</damageAmountBase>
+						  <armorPenetrationSharp>22</armorPenetrationSharp>
+						  <armorPenetrationBlunt>64</armorPenetrationBlunt>
 							<speed>135</speed>
 						</projectile>
 						<thingClass>AdeptusMechanicus.Bullet_ExplosiveCE</thingClass>

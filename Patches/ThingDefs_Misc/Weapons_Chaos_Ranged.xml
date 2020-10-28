@@ -534,11 +534,10 @@
 			  <Bulk>8.250</Bulk>
 			</statBases>
 			<Properties>
-				<recoilAmount>1.25</recoilAmount>
 			  <verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			  <hasStandardCommand>true</hasStandardCommand>
 			  <defaultProjectile>OGI_Bullet_Melta</defaultProjectile>
-			  <warmupTime>1.6</warmupTime>
+			  <warmupTime>2.6</warmupTime>
 			  <range>16</range>
 			  <soundCast>OG_Melta_Sound</soundCast>
 			  <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -872,8 +871,8 @@
 						<projectile Class="CombatExtended.ProjectilePropertiesCE">
 							<flyOverhead>false</flyOverhead>
 							<damageDef>OGCRAC</damageDef>
-							<damageAmountBase>40</damageAmountBase>
-							<armorPenetrationBase>0.68</armorPenetrationBase>
+							<damageAmountBase>20</damageAmountBase>
+							<explosionRadius>0.55</explosionRadius>
 							<stoppingPower>2</stoppingPower>
 							<speed>100</speed>
 						</projectile>

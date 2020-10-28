@@ -683,7 +683,7 @@
 					<damageDef>OGIArc</damageDef>
 					<damageAmountBase>5</damageAmountBase>
 				  <armorPenetrationSharp>8</armorPenetrationSharp>
-				  <armorPenetrationBlunt>72</armorPenetrationBlunt>
+				  <armorPenetrationBlunt>78</armorPenetrationBlunt>
 					<stoppingPower>1</stoppingPower>
 				</projectile>
 				<modExtensions>
@@ -921,8 +921,8 @@
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
       <SightsEfficiency>1.2</SightsEfficiency>
       <ShotSpread>0.05</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <Bulk>4.50</Bulk>
+      <SwayFactor>1.65</SwayFactor>
+      <Bulk>12.50</Bulk>
     </statBases>
     <Properties>
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>

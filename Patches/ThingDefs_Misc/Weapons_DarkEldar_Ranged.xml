@@ -495,7 +495,7 @@
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
 					<damageDef>OGELance</damageDef>
 					<damageAmountBase>22</damageAmountBase>
-				  <armorPenetrationSharp>24</armorPenetrationSharp>
+				  <armorPenetrationSharp>20</armorPenetrationSharp>
 				  <armorPenetrationBlunt>134</armorPenetrationBlunt>
 					<soundExplode>OGIPP_Explosion</soundExplode>
 				</projectile>
@@ -662,7 +662,7 @@
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>OGDE_Bullet_Darklance</defaultProjectile>
-      <warmupTime>1.35</warmupTime>
+      <warmupTime>2.1</warmupTime>
       <range>65</range>
       <soundCast>OG_Brightlance_Sound</soundCast>
       <soundCastTail>GunTail_Medium</soundCastTail>
@@ -902,7 +902,6 @@
       <Bulk>8.250</Bulk>
     </statBases>
     <Properties>
-		<recoilAmount>1.25</recoilAmount>
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>OGDE_Bullet_FusionBeam</defaultProjectile>
