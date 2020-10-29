@@ -2381,7 +2381,7 @@
 								<damageDef>Bullet</damageDef>
 								<damageAmountBase>7</damageAmountBase>
 							  <armorPenetrationSharp>10</armorPenetrationSharp>
-							  <armorPenetrationBlunt>52</armorPenetrationBlunt>
+							  <armorPenetrationBlunt>82</armorPenetrationBlunt>
 								<stoppingPower>1</stoppingPower>
 								<speed>100</speed>
 							</projectile>

@@ -422,7 +422,7 @@
 						<seam>0</seam>
 						<projectile Class="CombatExtended.ProjectilePropertiesCE">
 							<damageDef>OGTRailgun</damageDef>
-							<damageAmountBase>25</damageAmountBase>
+							<damageAmountBase>15</damageAmountBase>
 						  <armorPenetrationSharp>50</armorPenetrationSharp>
 						  <armorPenetrationBlunt>250</armorPenetrationBlunt>
 						</projectile>

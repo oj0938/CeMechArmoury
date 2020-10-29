@@ -57,7 +57,7 @@
 							</capacities>
 							<power>9</power>
 							<cooldownTime>1.8</cooldownTime>
-							<armorPenetration>0.12</armorPenetration>
+							<armorPenetrationBlunt>0.555</armorPenetrationBlunt>
 						</li>
 					</tools>
 				</value>
@@ -144,7 +144,7 @@
 							</capacities>
 							<power>9</power>
 							<cooldownTime>1.8</cooldownTime>
-							<armorPenetration>0.12</armorPenetration>
+							<armorPenetrationBlunt>0.555</armorPenetrationBlunt>
 						</li>
 					</tools>
 				</value>
@@ -198,7 +198,7 @@
 							</capacities>
 							<power>9</power>
 							<cooldownTime>1.8</cooldownTime>
-							<armorPenetration>0.12</armorPenetration>
+							<armorPenetrationBlunt>1.65</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>barrel</label>
@@ -208,7 +208,7 @@
 							</capacities>
 							<power>10</power>
 							<cooldownTime>1.9</cooldownTime>
-							<armorPenetration>0.15</armorPenetration>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
 						</li>
 					</tools>
 				</value>
