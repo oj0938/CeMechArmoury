@@ -390,7 +390,7 @@
       <RangedWeapon_Cooldown>0.56</RangedWeapon_Cooldown>
       <SightsEfficiency>2.2</SightsEfficiency>
       <ShotSpread>0.08</ShotSpread>
-      <SwayFactor>1.75</SwayFactor>
+      <SwayFactor>1.36</SwayFactor>
       <Bulk>12.50</Bulk>
     </statBases>
     <Properties>
@@ -456,9 +456,9 @@
 					<flyOverhead>false</flyOverhead>
 					<damageDef>OGEPlas</damageDef>
 					<damageAmountBase>35</damageAmountBase>
-					<armorPenetrationSharp>34</armorPenetrationSharp>
-					<armorPenetrationBlunt>168</armorPenetrationBlunt>
-					<stoppingPower>1.5</stoppingPower>
+					<explosionRadius>1.5</explosionRadius>
+					<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+					<soundExplode>OGIPP_Explosion</soundExplode>
 					<speed>135</speed>
 				</projectile>
 				<thingClass>AdeptusMechanicus.Bullet_ExplosiveCE</thingClass>
@@ -494,7 +494,7 @@
 				<seam>0</seam>
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
 					<damageDef>OGELance</damageDef>
-					<damageAmountBase>22</damageAmountBase>
+					<damageAmountBase>14</damageAmountBase>
 				  <armorPenetrationSharp>20</armorPenetrationSharp>
 				  <armorPenetrationBlunt>10</armorPenetrationBlunt>
 					<soundExplode>OGIPP_Explosion</soundExplode>
@@ -595,7 +595,7 @@
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>OGDE_Bullet_Darklance</defaultProjectile>
       <warmupTime>1.2</warmupTime>
-      <range>54</range>
+      <range>44</range>
       <soundCast>OG_Splinter_Sound</soundCast>
       <soundCastTail>GunTail_Light</soundCastTail>
       <muzzleFlashScale>8</muzzleFlashScale>
@@ -717,8 +717,8 @@
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>OGDE_Bullet_HaywireBlaster</defaultProjectile>
-      <warmupTime>1.2</warmupTime>
-      <range>48</range>
+      <warmupTime>1.58</warmupTime>
+      <range>42</range>
       <soundCast>OG_Deathspinner_Sound</soundCast>
       <soundCastTail>GunTail_Medium</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
@@ -778,9 +778,9 @@
 				<seam>0</seam>
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
 					<damageDef>OGIArc</damageDef>
-					<damageAmountBase>25</damageAmountBase>
+					<damageAmountBase>18</damageAmountBase>
 				  <armorPenetrationSharp>22</armorPenetrationSharp>
-				  <armorPenetrationBlunt>104</armorPenetrationBlunt>
+				  <armorPenetrationBlunt>64</armorPenetrationBlunt>
 					<soundExplode>OGIPP_Explosion</soundExplode>
 				</projectile>
 				<modExtensions>

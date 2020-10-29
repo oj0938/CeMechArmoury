@@ -617,9 +617,10 @@
 						<projectile Class="CombatExtended.ProjectilePropertiesCE">
 							<damageDef>OGTPlasmaPulse</damageDef>
 							<damageAmountBase>9</damageAmountBase>
-						  <armorPenetrationSharp>28</armorPenetrationSharp>
-						  <armorPenetrationBlunt>142</armorPenetrationBlunt>
+							<explosionRadius>0.55</explosionRadius>
+							<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 							<speed>135</speed>
+							<soundExplode>OGIPP_Explosion</soundExplode>
 						</projectile>
 						<thingClass>AdeptusMechanicus.Bullet_ExplosiveCE</thingClass>
 						<modExtensions>
@@ -718,9 +719,9 @@
 						</graphicData>
 						<projectile Class="CombatExtended.ProjectilePropertiesCE">
 							<damageDef>OGTNeutron</damageDef>
-							<damageAmountBase>20</damageAmountBase>
-						  <armorPenetrationSharp>26</armorPenetrationSharp>
-						  <armorPenetrationBlunt>142</armorPenetrationBlunt>
+							<damageAmountBase>15</damageAmountBase>
+							<armorPenetrationSharp>26</armorPenetrationSharp>
+							<armorPenetrationBlunt>142</armorPenetrationBlunt>
 							<speed>100</speed>
 						</projectile>
 						<thingClass>AdeptusMechanicus.Projectile_BulletEffectCE</thingClass>

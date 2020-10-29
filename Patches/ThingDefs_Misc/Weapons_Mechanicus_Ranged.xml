@@ -904,7 +904,7 @@
 					<damageDef>OGIGalvanic</damageDef>
 					<damageAmountBase>24</damageAmountBase>
 					<stoppingPower>2</stoppingPower>
-				  <armorPenetrationSharp>10</armorPenetrationSharp>
+				  <armorPenetrationSharp>16</armorPenetrationSharp>
 				  <armorPenetrationBlunt>80</armorPenetrationBlunt>
 					<speed>135</speed>
 				</projectile>
@@ -1009,10 +1009,9 @@
 					<damageDef>OGFlamer</damageDef>
 					<damageAmountBase>7</damageAmountBase>
 					<explosionRadius>0.55</explosionRadius>
-					<explosionChanceToStartFire>1.0</explosionChanceToStartFire>
-					<postExplosionSpawnThingDef>Filth_Fuel</postExplosionSpawnThingDef>
-					<preExplosionSpawnChance>0.5</preExplosionSpawnChance>
-					<stoppingPower>0.75</stoppingPower>
+					<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				    <preExplosionSpawnChance>0.33</preExplosionSpawnChance>
+				    <ai_IsIncendiary>true</ai_IsIncendiary>
 					<speed>75</speed>
 					<soundExplode>OGIFL_Explosion</soundExplode>
 				</projectile>

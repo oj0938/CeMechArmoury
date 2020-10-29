@@ -238,7 +238,8 @@
 					</capacities>
 					<power>18</power>
 					<cooldownTime>1.4</cooldownTime>
-					<armorPenetrationBlunt>0.65</armorPenetrationBlunt>				</li>
+					<armorPenetrationBlunt>0.65</armorPenetrationBlunt>				
+				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>barrel blade</label>
 					<capacities>
