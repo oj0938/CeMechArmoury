@@ -95,8 +95,8 @@
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
 					<damageDef>OGTPlasmaPulse</damageDef>
 					<damageAmountBase>10</damageAmountBase>
-					<armorPenetrationSharp>12</armorPenetrationSharp>
-					<armorPenetrationBlunt>52</armorPenetrationBlunt>
+					<armorPenetrationSharp>24</armorPenetrationSharp>
+					<armorPenetrationBlunt>142</armorPenetrationBlunt>
 					<speed>100</speed>
 				</projectile>
 				<thingClass>AdeptusMechanicus.Bullet_ExplosiveCE</thingClass>
@@ -192,8 +192,8 @@
 	  <Mass>3.25</Mass>
 	  <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
 	  <SightsEfficiency>1.0</SightsEfficiency>
-	  <ShotSpread>0.06</ShotSpread>
-	  <SwayFactor>1.52</SwayFactor>
+	  <ShotSpread>0.12</ShotSpread>
+	  <SwayFactor>1.32</SwayFactor>
 	  <Bulk>8.25</Bulk>
 	</statBases>
 	<Properties>
@@ -348,9 +348,9 @@
 				</graphicData>
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
 					<damageDef>OGTPlasmaPulse</damageDef>
-					<damageAmountBase>50</damageAmountBase>
-					<armorPenetrationSharp>8</armorPenetrationSharp>
-					<armorPenetrationBlunt>32</armorPenetrationBlunt>
+					<damageAmountBase>15</damageAmountBase>
+					<armorPenetrationSharp>28</armorPenetrationSharp>
+					<armorPenetrationBlunt>142</armorPenetrationBlunt>
 					<speed>100</speed>
 				</projectile>
 				<thingClass>AdeptusMechanicus.Bullet_ExplosiveCE</thingClass>

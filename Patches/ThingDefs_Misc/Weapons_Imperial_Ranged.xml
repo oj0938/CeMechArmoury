@@ -1152,7 +1152,7 @@
 							<projectile Class="CombatExtended.ProjectilePropertiesCE">
 								<damageDef>OGILas</damageDef>
 								<damageAmountBase>8</damageAmountBase>
-							  <armorPenetrationSharp>21</armorPenetrationSharp>
+							  <armorPenetrationSharp>20</armorPenetrationSharp>
 							  <armorPenetrationBlunt>8</armorPenetrationBlunt>
 							</projectile>
 							<modExtensions>
@@ -1282,7 +1282,7 @@
 							<projectile Class="CombatExtended.ProjectilePropertiesCE">
 								<damageDef>OGILas</damageDef>
 								<damageAmountBase>15</damageAmountBase>
-							  <armorPenetrationSharp>25</armorPenetrationSharp>
+							  <armorPenetrationSharp>22</armorPenetrationSharp>
 							  <armorPenetrationBlunt>8</armorPenetrationBlunt>
 							</projectile>
 							<modExtensions>
@@ -1381,7 +1381,7 @@
 							<projectile Class="CombatExtended.ProjectilePropertiesCE">
 								<damageDef>OGILas</damageDef>
 								<damageAmountBase>15</damageAmountBase>
-							  <armorPenetrationSharp>28</armorPenetrationSharp>
+							  <armorPenetrationSharp>26</armorPenetrationSharp>
 							  <armorPenetrationBlunt>8</armorPenetrationBlunt>
 							</projectile>
 							<modExtensions>
@@ -1476,7 +1476,7 @@
 							<projectile Class="CombatExtended.ProjectilePropertiesCE">
 								<damageDef>OGILas</damageDef>
 								<damageAmountBase>25</damageAmountBase>
-							  <armorPenetrationSharp>26</armorPenetrationSharp>
+							  <armorPenetrationSharp>28</armorPenetrationSharp>
 							  <armorPenetrationBlunt>10</armorPenetrationBlunt>
 							</projectile>
 							<modExtensions>
@@ -1712,7 +1712,7 @@
 						<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
 						<SightsEfficiency>1.0</SightsEfficiency>
 						<ShotSpread>0.1</ShotSpread>
-						<SwayFactor>1.25</SwayFactor>
+						<SwayFactor>1.27</SwayFactor>
 						<Bulk>7.65</Bulk>
 					</statBases>
 					<Properties>
@@ -1787,7 +1787,7 @@
 								<flyOverhead>false</flyOverhead>
 								<damageDef>OGIPlasma</damageDef>
 								<explosionRadius>1.50</explosionRadius>
-								<damageAmountBase>26</damageAmountBase>
+								<damageAmountBase>25</damageAmountBase>
 								<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 								<stoppingPower>1.5</stoppingPower>
 								<speed>75</speed>
@@ -1827,7 +1827,7 @@
 								<flyOverhead>false</flyOverhead>
 								<damageDef>OGIPlasma</damageDef>
 								<explosionRadius>0.50</explosionRadius>
-								<damageAmountBase>22</damageAmountBase>
+								<damageAmountBase>25</damageAmountBase>
 								<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 								<stoppingPower>1.5</stoppingPower>
 								<speed>75</speed>
@@ -2380,8 +2380,8 @@
 							<projectile Class="CombatExtended.ProjectilePropertiesCE">
 								<damageDef>Bullet</damageDef>
 								<damageAmountBase>7</damageAmountBase>
-							  <armorPenetrationSharp>11</armorPenetrationSharp>
-							  <armorPenetrationBlunt>82</armorPenetrationBlunt>
+							  <armorPenetrationSharp>10</armorPenetrationSharp>
+							  <armorPenetrationBlunt>52</armorPenetrationBlunt>
 								<stoppingPower>1</stoppingPower>
 								<speed>100</speed>
 							</projectile>
@@ -2473,8 +2473,8 @@
 								<damageDef>OGIAuto</damageDef>
 								<stoppingPower>.15</stoppingPower>
 								<damageAmountBase>8</damageAmountBase>
-								<armorPenetrationSharp>5</armorPenetrationSharp>
-								<armorPenetrationBlunt>6.52</armorPenetrationBlunt>
+								<armorPenetrationSharp>4</armorPenetrationSharp>
+								<armorPenetrationBlunt>4.52</armorPenetrationBlunt>
 								<spreadMult>17.8</spreadMult>
 								<pelletCount>9</pelletCount>
 								<speed>100</speed>
