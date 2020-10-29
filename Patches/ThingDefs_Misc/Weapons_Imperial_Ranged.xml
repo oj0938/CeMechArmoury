@@ -882,8 +882,7 @@
 								<damageDef>OGIBoltStd</damageDef>
 								<damageAmountBase>28</damageAmountBase>
 								<soundExplode>OGIPP_Explosion</soundExplode>
-								<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-								<explosionRadius>0.55</explosionRadius>>
+								<explosionRadius>0.55</explosionRadius>
 							</projectile>
 							<thingClass>AdeptusMechanicus.Bullet_ExplosiveCE</thingClass>
 							<modExtensions>
